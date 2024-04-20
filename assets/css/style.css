@@ -1,0 +1,192 @@
+.contppal{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*CONTENEDOR CHAT*/
+.chat{
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid silver;
+
+}
+
+.manos{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.titppal {
+    margin: 0;
+    padding: 20px 0 10px 0; /* 20px arriba, 0px derecha, 10px abajo, 0px izquierda */
+    font-size: 45px;
+}
+
+.parrppal {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/*CONTENEDOR CONTACTOS*/
+.contactos{
+    width: 22vw;
+}
+
+/*CONTENEDOR AGENTE*/
+.agente{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.maria{
+    width: 23%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mariaimg{
+    height: 6vh;
+    border-radius: 50%;
+    padding: 1vh 0 1vh 1vh;
+    margin: 0px;
+}
+
+.estado{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tmaria{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pmaria{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.iconos{
+    justify-content: space-evenly;
+    width: 44%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    color: gray;
+}
+
+/*CONTENEDOR BOTÓN*/
+.boton{
+    height: 16vh;
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+.bboton{
+    border: none;
+    font-size: 16px;
+    padding: 10px 35px;
+    background-color: #A491D2;
+    color: white;
+}
+
+/*CONTENEDOR USUARIOS*/
+.usuarios{
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fulanito{
+    height: 12.5%;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content:center;
+    align-items:center;
+    border-bottom: 1px solid silver;
+}
+
+.ifulanito{
+    width: 30%;
+    justify-content: end;
+}
+
+.fulanitoimg{
+    height: 6vh;
+    border-radius: 50%;
+    padding: 1vh 0 1vh 1vh;
+    margin: 0px;
+}
+
+.efulanito{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+
+.tfulanito{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pfulanito{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+
+/*GOOGLE FONTS*/
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
